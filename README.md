@@ -1,5 +1,5 @@
-3ch3r46/Jui-Autogrow
-====================
+jQuery Autogrow
+===============
 The Jquery autogrow extension for texarea in yii framework
 
 Installation
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist 3ch3r46/jui-autogrow "*"
+php composer.phar require --prefer-dist moonlandsoft/autogrow "*"
 ```
 
 or add
 
 ```
-"3ch3r46/jui-autogrow": "*"
+"moonlandsoft/autogrow": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -29,12 +29,12 @@ Once the extension is installed, simply use it in your code by  :
 
 ```
 !#php
-<?= \a3ch3r46\juiAutogrow\Autogrow::widget(['selector' => '.text-area-grow']); ?>
+<?= \moonlandsoft\autogrow\Autogrow::widget(['selector' => '.text-area-grow']); ?>
 ```
 
 or use this with jquery function call :
 
 ```
 !#php
-<?= \a3ch3r46\juiAutogrow\Autogrow::widget(['selector' => '.text-area-grow', 'functionName' => 'makeTextAutogrow']); ?>
+<?= \moonlandsoft\autogrow\Autogrow::widget(['selector' => '.text-area-grow', 'functionName' => 'makeTextAutogrow']); ?>
 ```
