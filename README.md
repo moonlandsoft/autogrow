@@ -27,14 +27,12 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-```
-!#php
+```php
 <?= \moonlandsoft\autogrow\Autogrow::widget(['selector' => '.text-area-grow']); ?>
 ```
 
 or use this with jquery function call :
 
-```
-!#php
+```php
 <?= \moonlandsoft\autogrow\Autogrow::widget(['selector' => '.text-area-grow', 'functionName' => 'makeTextAutogrow']); ?>
 ```
