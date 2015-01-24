@@ -39,5 +39,5 @@ or use this with jquery function call :
 
 For from widget, you can use code below :
 ```php
-<?= $form->field($model, 'attribute')->widget(AutogrowInput::className()); ?>
+<?= $form->field($model, 'attribute')->widget(AutogrowInput::className(), ['options' => ['class' => 'form-control']]); ?>
 ```
