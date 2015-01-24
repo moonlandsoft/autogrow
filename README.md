@@ -28,11 +28,16 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \moonlandsoft\autogrow\Autogrow::widget(['selector' => '.text-area-grow']); ?>
+<?= Autogrow::widget(['selector' => '.text-area-grow']); ?>
 ```
 
 or use this with jquery function call :
 
 ```php
-<?= \moonlandsoft\autogrow\Autogrow::widget(['selector' => '.text-area-grow', 'functionName' => 'makeTextAutogrow']); ?>
+<?= Autogrow::widget(['selector' => '.text-area-grow', 'functionName' => 'makeTextAutogrow']); ?>
+```
+
+For from widget, you can use code below :
+```php
+<?= $form->field($model, 'attribute')->widget(AutogrowInput::className()); ?>
 ```
